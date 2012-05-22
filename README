@@ -1,0 +1,3 @@
+Here is an app which can identify a sudoku from a given picture and extract the digits from the grid.
+
+Give the correct path to a picture(with a sudoku in it) in code.
