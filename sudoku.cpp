@@ -3,7 +3,7 @@
 
 using namespace cv;
 
-void digit_recog(Mat img)
+void digit_extract(Mat img)
 {
 	Mat digit;
 	vector<vector<Point> > contour;
@@ -94,7 +94,7 @@ int main(int argc,char** argv)
 	
 	
 	img_f=hough(img_t);
-	digit_recog(img_f);
+	digit_extract(img_f);
 	namedWindow("Final",0);
 	imshow("Final",img_f);
 	
