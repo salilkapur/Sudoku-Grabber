@@ -21,7 +21,7 @@ void digit_extract(Mat img)
 	}
 }
 
-//Function to seperate out the grid(seperate the block with biggest are(assumption))
+//Function to seperate out the grid(seperate the block with biggest area(assumption))
 Mat grid_extract(Mat img)
 {
 	int index;
