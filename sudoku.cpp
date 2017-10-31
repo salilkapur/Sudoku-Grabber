@@ -8,7 +8,7 @@ void digit_extract(Mat img)
 	Mat digit;
 	vector<vector<Point> > contour;
 	vector<Vec4i> h;
-	
+	// Finding contours in an image to detect digit
 	findContours(img,contour,h,CV_RETR_TREE,CV_CHAIN_APPROX_SIMPLE,Point(0,0));
 	for(int i=0;i<contour.size();i++)
 	{
